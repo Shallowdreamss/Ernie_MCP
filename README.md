@@ -256,6 +256,8 @@ print('\n')
 
 ### Code run
 
+Replace xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx in Ernie_Server.py with your [Key](https://home.openweathermap.org/api_keys)
+
 Run in the terminal
 
 ```
