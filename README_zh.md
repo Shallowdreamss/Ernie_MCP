@@ -264,7 +264,9 @@ python Weather.py Ernie_Server.py
 
 效果展示
 ![](https://ai-studio-static-online.cdn.bcebos.com/99d4751a50a843da99b1275b8a3a2be167925ddae6cb4ea89696de40ffb5ef94)
-
+```
+python Weather_zh.py Ernie_Server_zh.py
+```
 ![](https://ai-studio-static-online.cdn.bcebos.com/31a325fc4fbb4fd8b2fd3fe7fa149c79515ba5125df64d68b32ad86437baa637)
 ![](https://ai-studio-static-online.cdn.bcebos.com/9f8f60ea41fb433da0306126370c21afd32757d5ecac452984dc3171c45a26c3)
 
@@ -325,4 +327,5 @@ python Weather.py Ernie_Server.py
 - [人工智能工作室](https://aistudio.baidu.com/)
 - [PaddlePaddle 官网](https://www.paddlepaddle.org.cn/)
 - [ERNIEkit GitHub](https://github.com/PaddlePaddle/ERNIE)
+
 
