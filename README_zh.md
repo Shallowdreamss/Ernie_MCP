@@ -2,7 +2,7 @@
 
 ## 📖 教程概览
 
-本项目为助力文心开源所撰写，通过FastDeploy工具包实现**ERNIE-4.5-21B-A3B**模型本地部署方案，助力开发者快速掌握ERNIE 4.5系列模型的本地化部署及MCP服务接入。
+本项目为助力文心开源所撰写，通过FastDeploy工具包实现**ERNIE-4.5-21B-A3B**模型本地部署方案，助力开发者快速掌握ERNIE 4.5系列模型的本地化部署及MCP服务接入，体验MCP查询实时天气。
 
 ## 🚀 快速开始
 
@@ -39,6 +39,7 @@ pip install mcp httpx openai python-dotenv
 后续启动 MCP 服务时需要 uv 包管理工具，为了提升安装速度，可以配置镜像
 
 方法：进入 Conda 环境后，修改激活脚本（如 `~/.bashrc` 或 `~/.zshrc`）
+
 ```
 echo 'export UV_INDEX_URL="https://pypi.tuna.tsinghua.edu.cn/simple"' >> ~/.bashrc
 
@@ -260,9 +261,11 @@ print('\n')
 ```
 python Weather.py Ernie_Server.py
 ```
-效果展示
 
-![](https://ai-studio-static-online.cdn.bcebos.com/00a6d5df30fb452c80e4670171747d44f846b2beeb504c25a2ae2417e9c01dd7)
+效果展示
+![](https://ai-studio-static-online.cdn.bcebos.com/99d4751a50a843da99b1275b8a3a2be167925ddae6cb4ea89696de40ffb5ef94)
+
+![](https://ai-studio-static-online.cdn.bcebos.com/31a325fc4fbb4fd8b2fd3fe7fa149c79515ba5125df64d68b32ad86437baa637)
 ![](https://ai-studio-static-online.cdn.bcebos.com/9f8f60ea41fb433da0306126370c21afd32757d5ecac452984dc3171c45a26c3)
 
 ## 🤝 贡献指南
@@ -322,3 +325,4 @@ python Weather.py Ernie_Server.py
 - [人工智能工作室](https://aistudio.baidu.com/)
 - [PaddlePaddle 官网](https://www.paddlepaddle.org.cn/)
 - [ERNIEkit GitHub](https://github.com/PaddlePaddle/ERNIE)
+
