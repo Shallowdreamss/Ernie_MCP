@@ -1,5 +1,14 @@
 # ERNIE-MCP Project Quick Start Guide
 
+<div align="center">
+  <a href="README_zh.md">
+    <img src="https://img.shields.io/badge/语言-中文-blue?style=for-the-badge" alt="中文版">
+  </a>
+  <a href="README.md">
+    <img src="https://img.shields.io/badge/Language-English-red?style=for-the-badge" alt="English">
+  </a>
+</div>
+
 ## 📖 Tutorial overview
 
 This project is written to help Wenxin Open Source, and implements the local deployment solution of **ERNIE-4.5-21B-A3B** model through the FastDeploy toolkit, helping developers quickly master the localized deployment of ERNIE 4.5 series models and MCP service access, and experience MCP querying real-time weather.
