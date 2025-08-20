@@ -12,7 +12,7 @@ mcp = FastMCP("WeatherServer")
 
 # OpenWeather API 配置
 OPENWEATHER_API_BASE = "https://api.openweathermap.org/data/2.5/weather"
-API_KEY = "930c516f5f4c4c3dcd072f731f5c1c37"  # 请替换为你自己的 OpenWeather API Key
+API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"  # 请替换为你自己的 OpenWeather API Key
 USER_AGENT = "weather-app/1.0"
 
 
@@ -87,4 +87,5 @@ async def query_weather(city: str) -> str:
 
 if __name__ == "__main__":
     # 以标准 I/O 方式运行 MCP 服务器
+
     mcp.run(transport='stdio')
