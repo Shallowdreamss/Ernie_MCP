@@ -256,6 +256,8 @@ print('\n')
 
 ### 代码运行
 
+将Ernie_Server.py中的xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx替换为你的[Key](https://home.openweathermap.org/api_keys)
+
 在终端中运行
 
 ```
@@ -327,6 +329,7 @@ python Weather_zh.py Ernie_Server_zh.py
 - [人工智能工作室](https://aistudio.baidu.com/)
 - [PaddlePaddle 官网](https://www.paddlepaddle.org.cn/)
 - [ERNIEkit GitHub](https://github.com/PaddlePaddle/ERNIE)
+
 
 
 
